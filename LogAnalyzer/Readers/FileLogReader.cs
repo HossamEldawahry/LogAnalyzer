@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LogAnalyzer.Readers
 {
-    internal class FileLogReader : ILogReader
+    public class FileLogReader : ILogReader
     {
         private readonly string _filePath;
 

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace LogAnalyzer.Counters
 {
-    internal interface IIPCounter
+    public interface IIPCounter
     {
+        void Increment(string ip);
+        Dictionary<string, long> Snapshot();
     }
 }

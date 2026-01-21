@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LogAnalyzer.Readers
 {
-    internal interface ILogReader
+    public interface ILogReader
     {
         IEnumerable<string> ReadLines();
     }
