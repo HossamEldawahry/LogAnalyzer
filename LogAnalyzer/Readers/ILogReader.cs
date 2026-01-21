@@ -6,5 +6,6 @@ namespace LogAnalyzer.Readers
 {
     internal interface ILogReader
     {
+        IEnumerable<string> ReadLines();
     }
 }
